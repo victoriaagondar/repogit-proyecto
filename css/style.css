@@ -1,0 +1,521 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ffffff;
+}
+
+.logo{
+    width: 10%;
+    float: left;
+    border-radius: 50px;
+}
+
+.colorpropio{
+    background-color: rgb(255, 196, 223);
+}
+
+
+
+.nav-link {
+    text-align: right;
+}
+
+
+.nav-item {
+    margin-right: 20px;
+}
+
+
+.container-fluid {
+    text-align: justify;
+}
+
+
+.site-footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-logo img {
+    max-width: 100px;
+    border-radius: 100%;
+  }
+  
+  .footer-links ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-links li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .footer-links a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-social a {
+    color: #fff;
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  
+  .footer-copyright {
+    margin-top: 20px;
+  }
+  
+  footer{
+    margin-top: 20px;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  h1 {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 60px;
+    font-family: "Merriweather", serif;
+  }
+  
+  .image-container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .image-container img {
+    width: 100%;
+    border-radius: 50%;
+  }
+  .subrayado{
+    text-decoration: underline;
+    text-decoration-color: pink;
+    
+  }
+
+ .sobremi h2{
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    color: rgb(255, 136, 156);
+    font-family: "Merriweather", serif;
+  }
+
+  .sobremi{
+    display: flex;
+    justify-content: center;
+    margin: 150px auto;
+    width: 70%;
+    background-color: #fff;
+    box-shadow: 0px 1px 10px rgba(245, 78, 175, 0.397);
+  }
+
+  p{
+    padding: 10px;
+    margin: 10px;
+    font-family: "Philosopher", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 130%;
+  }
+
+  h2{
+    font-family: "Merriweather", serif;
+    text-align: center;
+  }
+
+  .row {
+padding: 10px;
+margin: 10px;
+
+  }
+
+.row h5{
+    font-family:"Merriweather", serif; 
+    text-align: center;
+    background: rgb(255, 198, 222);
+}
+
+.card {
+    box-shadow: 0 5px 10px #ffc6d4;
+}
+
+
+
+.redes-sociales { 
+    grid-area: redes-sociales;
+
+ }
+
+.form { 
+    grid-area: form;
+
+ }
+
+.img { 
+    grid-area: img; 
+}
+
+.contactUs{
+    position: relative;
+    width: 100%;
+    padding: 40px 100px;
+}
+
+.contactUs .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+
+.contactUs .h3{
+    color: #ce365c;
+    font-weight: 500;
+}
+
+.form{
+    grid-area: form;
+}
+
+
+.info{
+    grid-area: info;
+}
+
+
+.img{
+    grid-area: img;
+}
+
+.contact{
+    padding: 40px;
+    background-color: #ffaadc;
+    box-shadow: 0 5px 35px rgba(255, 77, 151, 0.5);
+}
+
+.box{
+    position: relative;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 5fr 4fr;
+    grid-template-areas:
+    "form info"
+    "form img";
+    grid-gap: 20px;
+    margin-top: 20px;
+}
+
+.contact h4{
+    color: #333;
+    font-weight: 500;
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+
+.formBox{
+    position: relative;
+    width: 100%;
+}
+
+.formBox .row50{
+    display: flex;
+    gap: 20px;
+
+}
+
+.imputBox  {
+    display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  width: 50%;
+}
+
+.formBox .row100 .imputBox{
+    width: 100%;
+}
+
+.imputBox span{
+    color: rgb(49, 44, 44);
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.imputBox input{
+padding: 10px;
+font-size: 1.1em;
+outline: none;
+border: 1px solid #000;
+}
+
+.imputBox textarea{
+padding: 10px;
+font-size: 1.1em;
+outline: none;
+border: 1px solid #000;
+resize: none;
+min-height: 220px;
+margin-bottom: 10px;
+}
+
+.imputBox input[ type="submit" ]
+{
+background-color: #ff1897;
+color: #fffbfb;
+border: none;
+font-size: 1.1em;
+max-width: 120px;
+font-weight: 500;
+cursor: pointer;
+padding: 14px 15x;
+}
+
+.imputBox ::placeholder{
+    color: #756a6d;
+}
+
+.for-contacto{
+    font-family:"Merriweather", serif;
+}
+
+.info{
+    background: white;
+    margin: 20px;
+    padding: 20px;
+}
+
+.con-fom{
+    font-family:"Merriweather", serif;
+    margin: 10px;
+    padding: 10px;
+}  
+
+.info .infoBox div{
+
+ display: flex;
+align-items: center;
+margin-bottom: 10px;
+}
+
+.info .infoBox div span{
+    min-width: 40px;
+    height: 40px;
+    color: #ffffff;
+    background-color: #ffd1e8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:1.5em;
+border-radius: 50%;
+margin-right: 15px;
+}
+
+.info .infoBox div p{
+    color: #333;
+}
+
+.info .infoBox div a{
+    color: #333;
+    text-decoration: none;
+}
+
+.sci{
+    margin-top: 40px;
+    display: flex;
+}
+
+.sci li{
+    list-style: none;
+    margin-right: 15px;
+}
+
+.sci li a{
+    color: #f59db3;
+    font-size: 2em;
+    color: #b8b5b5;
+
+}
+
+.sci li a:hover{
+    color: #ffc2d9;
+}
+
+.contact img{
+    position: center;
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    width: 500px;
+    height: 250px;
+}
+
+@media (max-width: 991px){
+    .contactUs{
+padding: 20px;
+    }
+.box{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "form" 
+    "info" 
+    "img" ;
+}
+}
+
+.trabajaconmigo{
+    max-width: 400px;
+    margin: 0 auto;
+}
+label, input, textarea {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.exito h2{
+    font-size: 120px;
+    font-family: "Merriweather", serif;
+    position: center;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    box-shadow: #ffaadc6e;
+}
+
+.titulo-trabajaconmigo{
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    font-family: "Merriweather", serif;
+    font-size: 120px;
+    color: #000;
+}
+  
+  button[type="submit"] {
+    background-color: #ff69b4; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    border-radius: 20%;
+  }
+  
+.form-caja{
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    font-family: "Merriweather", serif;
+    box-shadow: #ffaadc6e;
+}
+  
+.box-t{
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+}
+
+.row50{
+    display: flex;
+    gap: 20px;
+}
+
+.CAJA-T{
+    position: relative;
+    width: 100%;
+}
+
+.CAJA-T .row-50{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    margin-bottom: 10px;
+    width: 50%;
+}
+
+.row100{
+    width: 100%;
+}
+
+.CAJA-T textarea{
+    padding: 20px;
+    position: relative;
+    font-size: 1.1em;
+    outline: none;
+    border: 1px solid #000;
+    resize: none;
+    height: 200px;
+    width: 100%;
+     grid-column: 1/ -1; 
+    margin-bottom: 10px;
+    }
+
+.CAJA-T .botton{
+padding: 10px;
+margin: 10px;
+padding-top: 20px;
+}
+
+.Caja-t-c form{
+   padding: 20px;
+   margin: 20px;
+}
+
+.Caja-t-c {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+  }
+
+  input[type="text"],
+  input[type="tel"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #faefef;
+    resize: none;
+    margin-bottom: 10px;
+  }
+
+.trabaja-conmigo-tt{
+    padding: 0px;
+    margin: 0px;
+    background-image: url(../css/Imagenes/ft.png);
+}
+
+.card2{
+    padding:10px ;
+    margin: 10px;
+    box-shadow: 0 5px 10px #ffc6d4;
+}
+
+.card-body{
+    padding:10px ;
+    margin: 10px;
+    box-shadow: 0 5px 10px #ffc6d4;
+}
