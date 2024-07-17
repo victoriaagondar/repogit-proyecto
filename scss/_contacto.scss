@@ -1,0 +1,265 @@
+$blanco:#fff;
+$rosita:#ffabab;
+$rosa2:#f3a8a8; 
+$rosatrasparente: rgba(255, 77, 151, 0.5);
+$negro:#000;
+$gris:#333;
+$rosarojiso: #ce365c;
+$grisoscuro: rgb(49, 44, 44);
+$rosa3: #ffc2d9;
+$rosa4: #ffaadc;
+$rosa5: #ff1897;
+$grisclaro: #b8b5b5;
+$rosa6: #ffd1e8;
+$gris3:#756a6d;
+$rosa7: #f59db3;
+
+.conta{
+background: linear-gradient(90deg,$rosita,$rosa2,$blanco,$blanco);
+}
+
+.redes-sociales { 
+    grid-area: redes-sociales;
+
+ }
+
+.form { 
+    grid-area: form;
+
+ }
+
+.img { 
+    grid-area: img; 
+}
+
+.contactUs{
+    position: relative;
+    width: 100%;
+    padding: 40px 100px;
+}
+
+.contactUs .title{
+    display: flex;
+    justify-content: center;
+    background-color:$blanco;
+    align-items: center;
+    font-size: 2em;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 5px 35px $rosatrasparente;
+}
+
+.contactUs .h3{
+    color: $rosarojiso;
+    font-weight: 500;
+}
+
+.form{
+    grid-area: form;
+}
+
+
+.info{
+    grid-area: info;
+}
+
+
+
+
+.contact{
+    padding: 40px;
+    background-color: $rosa4;
+    box-shadow: 0 5px 35px $rosatrasparente;
+}
+
+.box{
+    position: relative;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 5fr 4fr;
+    grid-template-areas:
+    "form info"
+    "form info";
+    grid-gap: 20px;
+    margin-top: 20px;
+}
+
+.contact h4{
+    color: $gris;
+    font-weight: 500;
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+
+.formBox{
+    position: relative;
+    width: 100%;
+}
+
+.formBox .row50{
+    display: flex;
+    gap: 20px;
+
+}
+
+.imputBox  {
+    display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  width: 50%;
+}
+
+.formBox .row100 .imputBox{
+    width: 100%;
+}
+
+.imputBox span{
+    color: $grisoscuro;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.imputBox input{
+padding: 10px;
+font-size: 1.1em;
+outline: none;
+border: 1px solid $negro;
+}
+
+.imputBox textarea{
+padding: 10px;
+font-size: 1.1em;
+outline: none;
+border: 1px solid $negro;
+resize: none;
+min-height: 220px;
+margin-bottom: 10px;
+}
+
+.imputBox input[ type="submit" ]
+{
+background-color: $rosa5;
+color:$blanco;
+border: none;
+font-size: 1.1em;
+max-width: 120px;
+font-weight: 500;
+cursor: pointer;
+padding: 14px 15x;
+}
+
+.imputBox ::placeholder{
+    color: $gris3;
+}
+
+.for-contacto{
+    font-family:"Merriweather", serif;
+}
+
+.info{
+    background:$blanco;
+    margin: 20px;
+    padding: 20px;
+}
+
+.con-fom{
+    font-family:"Merriweather", serif;
+    margin: 10px;
+    padding: 10px;
+}  
+
+.info .infoBox div{
+
+ display: flex;
+align-items: center;
+margin-bottom: 10px;
+
+}
+
+.info .infoBox div span{
+    min-width: 40px;
+    height: 40px;
+    color: $blanco;
+    background-color:$rosa6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:1.5em; 
+    margin-right: 15px;
+}
+
+.info .infoBox div p{
+    color: $gris;
+}
+
+
+.info .infoBox div a{
+    color:$gris;
+    text-decoration: none;
+}
+.sci{
+    margin-top: 40px;
+    display: flex;
+}
+
+.sci li{
+    list-style: none;
+    margin-right: 15px;
+}
+
+.sci li a{
+    color:$rosa7;
+    font-size: 2em;
+    color: $grisclaro;
+
+}
+
+.sci li a:hover{
+    color: $rosa3;
+}
+
+
+.conaimg img{
+    width: 500px;
+    float: center;
+    padding: 0px;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 0 5px 35px  $rosatrasparente;
+
+}
+
+@media (max-width: 991px){
+    .contactUs{
+padding: 20px;
+    }
+.box{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "form" 
+    "info" 
+    "img" ;
+}
+}
+@media(max-width: 440PX){
+    .contactUs{
+        position: relative;
+        width: 50%;
+        padding: 20px 50px;
+    }
+.box{
+    width: 70%;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "form" 
+    "info" 
+    "img" ;
+}
+}

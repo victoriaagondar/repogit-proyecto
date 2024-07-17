@@ -1,0 +1,145 @@
+$blanco:#fff;
+$negro:#000;
+$rosatrasparente:#ffaadc6e;
+$fuccia: #ff69b4;
+$grisclaro:#ccc;
+ $rosapastel: #ffc6d4;
+
+.trabajaconmigo{
+    max-width: 400px;
+    margin: 0 auto;
+
+}
+
+label, input, textarea {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.titulo-trabajaconmigo{
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    font-family: "Merriweather", serif;
+    font-size: 120px;
+    color: $negro;
+}
+
+.exito h2{
+    font-size: 120px;
+    font-family: "Merriweather", serif;
+    position: center;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    box-shadow: $rosatrasparente;
+}
+
+  
+  button[type="submit"] {
+    background-color: $fuccia; 
+    color:$blanco; 
+    border: none; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    border-radius: 20%;
+  }
+  
+.form-caja{
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    font-family: "Merriweather", serif;
+    box-shadow: $rosatrasparente;
+}
+  
+.box-t{
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+}
+
+.row50{
+    display: flex;
+    gap: 20px;
+}
+
+.CAJA-T{
+    position: relative;
+    width: 100%;
+}
+
+.CAJA-T .row-50{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    margin-bottom: 10px;
+    width: 50%;
+}
+
+.row100{
+    width: 100%;
+}
+
+.CAJA-T textarea{
+    padding: 20px;
+    position: relative;
+    font-size: 1.1em;
+    outline: none;
+    border: 1px solid $negro;
+    resize: none;
+    height: 200px;
+    width: 100%;
+     grid-column: 1/ -1; 
+    margin-bottom: 10px;
+    }
+
+.CAJA-T .botton{
+padding: 10px;
+margin: 10px;
+padding-top: 20px;
+}
+
+.Caja-t-c form{
+   padding: 20px;
+   margin: 20px;
+}
+
+.Caja-t-c {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+  }
+
+  input[type="text"],
+  input[type="tel"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid $grisclaro;
+    border-radius: 4px;
+    background-color: $blanco;
+    resize: none;
+    margin-bottom: 10px;
+  }
+
+.trabaja-conmigo-tt{
+    padding: 0px;
+    margin: 0px;
+    background-image: url(../css/Imagenes/ft.png);
+}
+
+.card2{
+    padding:10px ;
+    margin: 10px;
+    box-shadow: 0 5px 10px  $rosapastel;
+}
+
+.card-body{
+    padding:10px ;
+    margin: 10px;
+    box-shadow: 0 5px 10px $rosapastel;
+}

@@ -1,0 +1,26 @@
+$blanco:#fff;
+$rosaclaro: rgb(255, 196, 223);
+header{
+    width: 100%;
+    background-color: $rosaclaro;
+    .logo{
+        width: 10%;
+        float: left;
+        border-radius: 50px;
+    }
+    .nav-link {
+        text-align: right;
+        &:hover{
+            color:$blanco;
+            border:$blanco, 2px solid;
+            border-radius: 15%;
+        }
+    }
+    .nav-item {
+        margin-right: 20px;
+    }
+    .container-fluid {
+        text-align: justify;
+    }
+    
+}

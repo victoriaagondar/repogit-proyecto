@@ -1,0 +1,52 @@
+$blanco:#fff;
+$fucciatrasparente: rgba(245, 78, 175, 0.397);
+$rosita: rgb(255, 136, 156);
+$rosamuyclarito: rgb(255, 198, 222);
+
+aside{
+    .sobremi{
+        display: flex;
+        justify-content: center;
+        margin: 150px auto;
+        width: 70%;
+        background-color:$blanco;
+        box-shadow: 0px 1px 10px $fucciatrasparente;
+        h2{
+            text-align: center;
+            padding: 20px;
+            margin: 20px;
+            color:$rosita;
+            font-family: "Merriweather", serif;
+          }
+          p{
+            padding: 20px;
+            margin: 20px;
+            font-family: "Philosopher", sans-serif;
+            font-weight: 900;
+            font-style: italic;
+            font-size: 130%;
+          }
+      }
+      section{
+        h2{
+            font-family: "Merriweather", serif;
+            text-align: center;
+          }
+          .row {
+            padding: 10px;
+            margin: 10px;
+            
+              }
+            
+            .row h5{
+                font-family:"Merriweather", serif; 
+                text-align: center;
+                background: $rosamuyclarito;
+            }
+            
+            .card {
+                box-shadow: 0 5px 10px $rosamuyclarito;
+            }
+      }
+}
+ 
