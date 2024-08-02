@@ -1,32 +1,40 @@
 $blanco:#fff;
 $rosa:pink;
-main{
-    padding: 10px;
-    .container {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-        .image-container {
-            margin-left: auto;
-            margin-right: auto; 
-        }
-        h1 {
-            margin-left: auto;
-            margin-top: 10px;
-            margin-right: auto;
-            font-size: 60px;
-            text-align: left;
-            font-family: "Merriweather", serif;
-          }
-          .subrayado{
-            text-decoration: underline;
-            text-decoration-color: $rosa;
-          }     
-        .img {
-            width: 250px;
-            border-radius: 20%;
-            float: right;
-            margin: 20px;
-          }
+$rosita: rgb(255, 136, 156);
+$rosamuyclarito: rgb(255, 198, 222);
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    font-family: sans-serif;
+    text-align: center;
   }
+
+
+.header{
+  img {
+
+    height: auto; /* Para mantener la proporción */
+    width: 250px;
+    display: inline-block;
+    position: center;
+    border-radius: 20%;
+    margin: 10px;
+    padding: 10px;
+  }
+  h1 {
+    margin-top: 15px; /* Espacio entre la imagen y el título */
+    margin-left: auto;
+    font-size: 60px;
+   font-family: "Merriweather", serif;
+   margin: 20px;
+   padding: 20px;
+   .subrayado{
+    text-decoration: underline;
+    text-decoration-color: $rosa;
+  } 
+  }
+} 
+

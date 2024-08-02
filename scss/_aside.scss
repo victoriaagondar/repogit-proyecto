@@ -4,33 +4,46 @@ $rosita: rgb(255, 136, 156);
 $rosamuyclarito: rgb(255, 198, 222);
 
 aside{
-    .sobremi{
-        display: flex;
-        justify-content: center;
-        margin: 150px auto;
-        width: 70%;
-        background-color:$blanco;
-        box-shadow: 0px 1px 10px $fucciatrasparente;
+
+  .sobremi {
+    max-width: 800px; 
+    margin: 0  auto; 
+    padding: 20px; 
+    background-color: #ffffff; 
+    box-shadow: 0px 1px 10px $fucciatrasparente;
+    width: 70%;
+    h2 {
+      font-size: 30px;
+      margin-bottom: 10px;
+      padding: 10px;
+      margin: 10px;
+      color:$rosita;
+      font-family: "Merriweather", serif;
+      text-align: center;
+    }
+    p {
+      line-height: 1.5;
+      color: #000; 
+      padding: 20px;
+      margin: 20px;
+      font-family: "Philosopher", sans-serif;
+      font-weight: 900;
+      font-style: italic;
+      font-size: 130%;
+    }
+    p + p {
+      margin-top: 20px;
+    }
+  }
+  
+      
+ section{
         h2{
-            text-align: center;
-            padding: 20px;
-            margin: 20px;
-            color:$rosita;
-            font-family: "Merriweather", serif;
-          }
-          p{
-            padding: 20px;
-            margin: 20px;
-            font-family: "Philosopher", sans-serif;
-            font-weight: 900;
-            font-style: italic;
-            font-size: 130%;
-          }
-      }
-      section{
-        h2{
             font-family: "Merriweather", serif;
             text-align: center;
+            padding: 30px;
+            margin: 20px;
+            font-size: 50px;
           }
           .row {
             padding: 10px;
@@ -50,3 +63,6 @@ aside{
       }
 }
  
+
+
+

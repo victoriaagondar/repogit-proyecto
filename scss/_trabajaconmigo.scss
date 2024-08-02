@@ -13,7 +13,10 @@ $grisclaro:#ccc;
 
 label, input, textarea {
     display: block;
-    margin-bottom: 10px;
+    margin-bottom: 20px ;
+    background-color: $fuccia;
+    border-radius: 10px;
+    color: #000;
 }
 
 .titulo-trabajaconmigo{
@@ -23,6 +26,8 @@ label, input, textarea {
     font-family: "Merriweather", serif;
     font-size: 120px;
     color: $negro;
+    background-color: $rosatrasparente;
+    border-radius: 30px;
 }
 
 .exito h2{

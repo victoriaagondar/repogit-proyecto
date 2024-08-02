@@ -1,5 +1,6 @@
 $blanco:#fff;
 $gris:#333;
+$rosa:#ffa2a2;
 footer{
     margin-top: 20px;
     .site-footer {
@@ -31,14 +32,18 @@ footer{
 
     ul {
       list-style: none;
-      padding: 0;
+      padding: 10;
        }
   
         li {
+          margin: 5px;
             display: inline-block;
             margin-right: 20px;
           }
-          
+        .terminos{
+          padding: 10px;
+          margin: 20px;
+        } 
       
       a {
         color: $blanco;
